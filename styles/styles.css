@@ -21,3 +21,16 @@
 .main-bg {
     background-color: #E5E5E5;
 }
+
+.benefit-sec {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.benefit-icon {
+    width: 70px;
+    height: 70px;
+}
